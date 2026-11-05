@@ -77,15 +77,15 @@ body {
   animation: sparkle-twinkle 1.8s ease-in-out infinite;
 }
 .welcome-sparkle--1 {
-  top: -18px;
-  left: -10px;
+  top: -20px;
+  left: -18px;
   width: 32px;
   height: 32px;
   animation-delay: 0.3s;
 }
 .welcome-sparkle--2 {
-  bottom: -14px;
-  right: -6px;
+  bottom: -16px;
+  right: -18px;
   width: 26px;
   height: 26px;
   animation-delay: 1s;
