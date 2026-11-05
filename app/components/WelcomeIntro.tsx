@@ -18,35 +18,35 @@ export default function WelcomeIntro({ children }: { children: React.ReactNode }
         className={`welcome-intro ${visible ? "" : "welcome-intro--hidden"}`}
         aria-hidden={!visible}
       >
+        <svg
+          className="welcome-sparkle welcome-sparkle--1"
+          viewBox="0 0 24 24"
+          width="32"
+          height="32"
+        >
+          <path
+            d="M12 0 L13.8 9.2 L24 12 L13.8 14.8 L12 24 L10.2 14.8 L0 12 L10.2 9.2 Z"
+            fill="currentColor"
+          />
+        </svg>
         <div className="welcome-wrap">
-          <svg
-            className="welcome-sparkle welcome-sparkle--1"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-          >
-            <path
-              d="M12 0 L13.8 9.2 L24 12 L13.8 14.8 L12 24 L10.2 14.8 L0 12 L10.2 9.2 Z"
-              fill="currentColor"
-            />
-          </svg>
           <p className="welcome-text">
             <span className="welcome-text-main">Bienvenue</span>
             <br />
             <span className="welcome-text-sub">sur ma carte de visite numérique</span>
           </p>
-          <svg
-            className="welcome-sparkle welcome-sparkle--2"
-            viewBox="0 0 24 24"
-            width="18"
-            height="18"
-          >
-            <path
-              d="M12 0 L13.8 9.2 L24 12 L13.8 14.8 L12 24 L10.2 14.8 L0 12 L10.2 9.2 Z"
-              fill="currentColor"
-            />
-          </svg>
         </div>
+        <svg
+          className="welcome-sparkle welcome-sparkle--2"
+          viewBox="0 0 24 24"
+          width="26"
+          height="26"
+        >
+          <path
+            d="M12 0 L13.8 9.2 L24 12 L13.8 14.8 L12 24 L10.2 14.8 L0 12 L10.2 9.2 Z"
+            fill="currentColor"
+          />
+        </svg>
       </div>
       <div
         style={{
